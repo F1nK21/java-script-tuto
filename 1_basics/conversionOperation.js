@@ -49,3 +49,35 @@ let stringNumber = String(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+// **Operation**
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+// console.log(2+2); //addition
+// console.log(2-2); //substraction
+// console.log(2*2); //multiplication
+// console.log(2**3); //power
+// console.log(2/2); //division
+// console.log(2%2); //remainder
+
+let str1 = "Hello";
+let str2 = " Kaustav";
+
+let str3 = str1 + str2;
+// console.log(str3); //returns Hello Kaustav
+// console.log(1 + "2"); //returns 12
+// console.log("1" + 2); //returns 12
+// console.log("1" + 2 + 2); //returns 122
+// console.log(1 + 2 + "2"); //returns 32
+// console.log(+true); // returns 1
+// console.log(+""); //returns 0
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+gameCounter++; //postfix ops
+console.log(gameCounter);
+++gameCounter; //prefix ops
+console.log(gameCounter);
