@@ -1,9 +1,9 @@
-// console.log(2 > 1); //greater then
-// console.log(2 >= 1); //greater then equals to
-// console.log(2 < 1); //less then
-// console.log(2 <= 1); //less then equals to
-// console.log(2 == 1); //is it equal or not
-// console.log(2 != 1); //not equals to
+console.log(2 > 1); //greater then
+console.log(2 >= 1); //greater then equals to
+console.log(2 < 1); //less then
+console.log(2 <= 1); //less then equals to
+console.log(2 == 1); //is it equal or not
+console.log(2 != 1); //not equals to
 
 console.log("2" != 1); //"2" gets converted into number
 console.log("02" > 1); //"02" gets converted into number
